@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #00796b;
+}
+
+/* Container Styles */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 60%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+}
+
+/* Form Elements */
+#container div {
+    margin: 10px;
+    flex: 1;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 23px;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+/* Balance Section */
+#balance {
+    margin: 20px auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+#balance label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+table thead tr td {
+    color: #333;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+#date input{
+    max-width: 110px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #container {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #balance {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    #date input {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    label {
+        font-size: 0.9em;
+    }
+
+    input, select, button {
+        font-size: 0.9em;
+    }
+
+    #balance {
+        font-size: 1em;
+    }
+
+    table td {
+        font-size: 0.9em;
+    }
+}

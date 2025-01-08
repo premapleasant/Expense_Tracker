@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expense tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="heading">EXPENSE TRACKER</h1>
+    <div id="container">
+      <div id="text-area">
+        <label>Description:</label>
+        <input type="text">
+      </div>
+
+      <div id="expense">
+        <label>Income/Expense:</label>
+        <select>
+            <option value="0">Income</option>
+            <option value="1">Expense</option>
+        </select>
+      </div>
+
+      <div id="amount">
+        <label>Amount:</label>
+        <input type="number">
+      </div>
+
+      <div id="date">
+        <label for="">Date:</label>
+        <input type="datetime-local">
+      </div>
+
+      <div id="save">
+          <button type="submit">SAVE</button>
+      </div>
+    </div>
+      <div id="balance">
+        <label>Income:</label>
+        <label>Expense:</label>
+        <label>Balance:</label>
+        
+      </div>
+    
+    <table>
+      <thead>
+      <tr>
+         <td>Description</td>
+         <td>Amount</td>
+         <td>Income/Expense</td>
+         <td>Balance</td>
+         <td>Date</td>
+      </tr>
+    </thead>
+
+    <tbody>
+
+    </tbody>
+    </table>
+    
+    <script src="script.js"></script>
+</body>
+</html>
