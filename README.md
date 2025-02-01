@@ -12,7 +12,7 @@ A simple app to track income and expenses, helping users manage their finances e
 3️⃣ View total balance, income, and expenses.  
 
 ## Live Demo  
-🔗 [Live Link](#) *(Replace `#` with your actual link)*  
+🔗 [Live Link](https://premapleasant.github.io/Expense_Tracker/)
 
 ## Technologies Used  
 - HTML  
